@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  text-align: center;
+  /*font-family: serif, snas-serif, monospace, cursive, fantasy
+    # serif = Times New Roman (default)
+    # sans-serif = Arial (default) */
+  font-family: "Merriweather", serif;
+  color: #20262e;
+}
+
+h1 {
+  /*margin: 0 auto 0 auto;
+  width: 20%;-------------- if there is a block element that needs centering with a width mentioned, use margin:auto*/
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+  font-size: 5.625rem; /*(100% = 16px = 1em)  eg: 70px needed:- 70 / 16 = 4.375em = 437.5%!! */
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem; /*40/16 = 2.5em */
+  color: #66bfbf;
+  font-weight: nromal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+a {
+  color: #11999e;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+p {
+  line-height: 2;
+}
+
+span {
+  color: #11999e;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted none none none;
+  border-width: 5px;
+  border-color: gray;
+  margin: 100px auto;
+}
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 50px 0 100px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+
+  padding-top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 350px;
+  left: 350px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.mountain {
+  margin-top: 100px;
+}
+
+.profile-pic {
+  width: 200px;
+}
+
+.skill-img1 {
+  width: 25%;
+  float: left;
+  padding: 30px;
+}
+.skill-img2 {
+  width: 30%;
+  float: right;
+  padding: 30px;
+}
+
+.tagline {
+  font-size: 1.875rem;
+  margin-top: 10px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+  text-align: justify;
+}
+
+.skill-heading {
+  text-decoration: underline;
+}
+
+.copyright {
+  color: #eaf6f6;
+  padding: 20px 0;
+  font-size: 0.75em;
+  margin-bottom: 0;
+}
+
+.last-line {
+  margin: 50px auto 50px auto;
+  width: 50%;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
